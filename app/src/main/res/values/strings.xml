@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DemoProject</string>
+    <string name="enter_perso">Enter Personal Detail</string>
+    <string name="rectangle_2">Calculate</string>
+    <string name="calculate_y">Calculate Your Body Mass Index</string>
+    <string name="gender">Gender : </string>
+    <string name="height">Height : </string>
+    <string name="weight">Weight : </string>
+    <string name="name">Name</string>
+    <string name="calculate">Calculate</string>
+    <string name="some_id">43</string>
+    <string name="some_id_2">18</string>
+    <string name="hello_olivi">HELLO OLIVIA , YOU ARE NORMAL</string>
+    <string name="body_mass_i">BODY MASS INDEX</string>
+    <string name="normal_bmi_">Normal BMI range: 18.5kg/m2 - 25kg/m2</string>
+    <string name="normal_bmi_2">Ponderal Index: 10.64 kg/m3</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+
+
+</resources>

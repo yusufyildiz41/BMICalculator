@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/heightText"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="296dp"
+        android:ems="10"
+        android:hint="180 cm"
+        android:inputType="number"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/enter_perso"
+        android:layout_width="672px"
+        android:layout_height="82px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:gravity="top"
+        android:lineHeight="18px"
+        android:text="@string/enter_perso"
+        android:textAppearance="@style/enter_perso"
+        android:textSize="70px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Rectangle 8 -->
+
+    <!-- 43 -->
+
+
+    <!-- Rectangle 9 -->
+
+    <View
+
+        android:id="@+id/rectangle_2"
+        android:layout_width="908px"
+        android:layout_height="123px"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/rectangle_2"
+        android:onClick="calculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </View>
+
+    <!-- Name -->
+
+    <!-- Calculate -->
+
+    <TextView
+        android:id="@+id/calculate"
+        android:layout_width="185px"
+        android:layout_height="47px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/calculate"
+        android:textAppearance="@style/calculate"
+        android:textSize="40px"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.858" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_2"
+        app:layout_constraintVertical_bias="0.957" />
+
+    <TextView
+        android:id="@+id/calculate_y"
+        android:layout_width="708px"
+        android:layout_height="68px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="208dp"
+        android:gravity="center|top"
+
+        android:text="@string/calculate_y"
+        android:textAppearance="@style/calculate_y"
+        android:textFontWeight="300"
+        android:textSize="45px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!-- Weight -->
+    <!-- Height -->
+    <!-- Gender -->
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="145px"
+        android:layout_height="60px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="268dp"
+        android:gravity="top"
+        android:text="@string/weight"
+        android:textAppearance="@style/weight"
+        android:textSize="40px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="145px"
+        android:layout_height="60px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="316dp"
+        android:gravity="top"
+        android:text="@string/height"
+        android:textAppearance="@style/height"
+        android:textSize="40px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="57dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="324dp"
+        android:gravity="top"
+        android:text="@string/gender"
+        android:textAppearance="@style/gender"
+        android:textSize="40px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="342dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="108dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/weightText"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="248dp"
+        android:ems="10"
+        android:hint="50 kg"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/genderText"
+        android:layout_width="176dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="140dp"
+        android:ems="10"
+        android:hint="Female Or Male"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

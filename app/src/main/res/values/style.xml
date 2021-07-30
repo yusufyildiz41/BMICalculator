@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="enter_perso">
+
+        <item name="android:textSize">70sp</item>
+
+        <item name="android:textColor">#19769F</item>
+
+    </style>
+
+    <!-- styles.xml -->
+    <style name="calculate_y">
+
+        <item name="android:textSize">45sp</item>
+
+        <item name="android:textColor">#C0C0C0</item>
+
+    </style>
+
+    <style name="weight">
+
+        <item name="android:textSize">40sp</item>
+
+        <item name="android:textColor">#3D3D3D</item>
+
+    </style>
+
+    <style name="height">
+
+        <item name="android:textSize">40dp</item>
+
+        <item name="android:textColor">#3D3D3D</item>
+
+    </style>
+
+    <style name="gender">
+
+        <item name="android:textSize">40sp</item>
+
+        <item name="android:textColor">#3D3D3D</item>
+
+    </style>
+
+    <style name="name">
+
+        <item name="android:textSize">
+            40sp
+        </item>
+
+        <item name="android:textColor">
+            #C0C0C0
+        </item>
+
+    </style>
+
+    <style name="calculate">
+
+        <item name="android:textSize">
+            40sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="some_id">
+
+        <item name="android:textSize">
+            40sp
+        </item>
+
+        <item name="android:textColor">
+            #19769F
+        </item>
+
+    </style>
+
+    <style name="some_id_2">
+
+        <item name="android:textSize">
+            255sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="hello_olivi">
+
+        <item name="android:textSize">
+            25sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.07
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="body_mass_i">
+
+        <item name="android:textSize">
+            32sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.03
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="normal_bmi_">
+
+        <item name="android:textSize">
+            25sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.07
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="normal_bmi_2">
+
+        <item name="android:textSize">
+            25sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.07
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="rate">
+
+        <item name="android:textSize">
+            40sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="share">
+
+        <item name="android:textSize">
+            40sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+
+
+
+</resources>
